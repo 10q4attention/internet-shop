@@ -5,15 +5,113 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <title>Магазин спортпита</title>
+        <script src="https://kit.fontawesome.com/4ce6f4727b.js" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.jpg" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Домой</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a id="us" class="active" href="about.html">Информация</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+     
+
+
+        <section id="about-head" class="section-p1">
+            <img class="img-fluid" src="img/about/a6.jpg" alt="">
+            <div>
+                <h2>Кто Мы Такие?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius nam obcaecati ullam quibusdam hic fugit quaerat neque qui tenetur tempora dolorum, sed blanditiis, ipsum nulla temporibus similique. Enim adipisci quasi sunt labore quisquam commodi reiciendis error necessitatibus tempore iusto, eum sed, laudantium libero impedit laboriosam! Id dignissimos unde consequatur placeat.</p>
+                <abbr title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dignissimos ex, natus, voluptatum est voluptas sit, repellat porro eaque perspiciatis accusantium.</abbr>
+
+                <br><br>
+
+                <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minima velit explicabo, sapiente id accusamus laudantium! Explicabo perspiciatis maiores facilis.</marquee>
+            </div>
+        </section>
+        
+        <section id="feature" class="section-p1">
+            <div class="fe-box">
+                <img src="img/features/f1.png" alt="">
+                <h6>Бесплатная доставка</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f2.png" alt="">
+                <h6>Заказ онлайн</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f3.png" alt="">
+                <h6>Экономия денег</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f4.png" alt="">
+                <h6>Скидки</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f5.png" alt="">
+                <h6>Хорошее настроение</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f6.png" alt="">
+                <h6>Поддержка 24/7</h6>
+            </div>
+        </section>
+   
+        <section id="newsletter" class="section-p1">
+            <div class="newstext">
+                <h4>Подписывайтесь на нашу рассылку!</h4>
+                <p>Получайте сообщения о наших новинках на ваш email.</p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Ваш email">
+                <button class="normal">Подписаться</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.jpg" alt="">
+                <h4>Контакты</h4>
+                <p><strong>Адрес: </strong> Москва, проспект Вернадского, д.3</p>
+                <p><strong>Телефон: </strong> +79101234567</p>
+                <p><strong>Часы работы: </strong> 10:00 - 18:00, пн-сб</p>
+            </div>
+
+            <div class="col">
+                <h4>Информация</h4>
+                <a href="#">О нас</a>
+                <a href="#">Информация о доставке</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия пользования</a>
+                <a href="#">Связаться с нами</a>
+            </div>
+
+            <div class="copyright">
+                <p>© 1998 – 2023 ООО «Массонабор». Все права защищены.</p>
+            </div>
+
+        </footer>
 
         <script src="script.js"></script>
+        <script src="speak.js"></script>
     </body>
 
 </html>
